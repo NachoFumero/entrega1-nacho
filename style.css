@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(230, 230, 230);
+}
+
+
+#header {
+    width: 100%;
+    background-color: #527499;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #header
+    {
+        text-align: left;
+        padding: 5px;
+    }
+}
+
+.header-link
+{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+@media screen and (max-width: 600px) {
+    .header-link
+    {
+        text-align: left;
+        padding: 5px;
+    }
+}
+
+
+#home
+{
+    background-image: url("img/auto-inicio.jpg");
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+.home-text
+{
+    margin: 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: rgb(235, 241, 241);
+    font-size: 40px;
+
+}
+
+.contenedor{
+    margin: 20px;
+
+}
+
+.fila{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    height: auto;
+    /* responsivo */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+}
+
+.columna{
+    width: 20%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+    .columna
+    {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .columna
+    {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+
+.columna3{
+    width: 20%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+    .columna3
+    {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .columna3
+    {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+.caja {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    text-align: center;
+    background-color: rgb(224, 245, 242);
+}
+
+.caja-auto {
+    /* border-style: solid; */
+    border-width: 1px;
+    border-color: black;
+    text-align: center;
+    background-color:white;
+}
+
+
+
+
+#footer {
+    text-align: right;
+    width: 100%;
+    margin-top: 10px;
+    background-color:  #527499;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.footer-img
+{
+    padding-right: 30px;
+    height: 40px;
+    width: auto;
+}
